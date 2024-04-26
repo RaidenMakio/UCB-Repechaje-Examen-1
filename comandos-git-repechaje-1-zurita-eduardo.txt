@@ -1,13 +1,15 @@
 git init
 git clone https://github.com/EduardoZuritaz/UCB-Repechaje-Examen-1.git
-git add comandos-git-repechaje-1-zurita-eduardo.txt
-git commit -m "first commit"
 git branch repechaje
 git checkout repechaje
-git status (para revisar las carpetas)
+git add comandos-git-repechaje-1-zurita-eduardo.txt
+git commit -m "first commit"
+git status 
 git add zurita-eduardo/
-git status (para confirmar)
 git commit -m "subiendo-nota-teorica"
-git checkout master
 git add comandos-git-repechaje-1-zurita-eduardo.txt
 git commit -m "subiendo-comandos-actualizados"
+git push origin repechaje
+git checkout main
+git push origin main
+
